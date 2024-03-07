@@ -1,0 +1,50 @@
+<!--
+File: hurnegyzet.html
+Author: Józsa Márk
+Copyright: 2024, Józsa Márk
+Group: Szoft V
+Date: 2024-03-07
+Github: https://github.com/mark200023k3r234j234/
+Licenc: GNU GPL
+--->
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hurnegyzet</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <div class="negyzetform">
+            <div class="input">
+                <label for="a"> a oldal</label>
+                <input type="text" id="a"  required class="form-control">
+                <button id="calcbutton"
+                    class="btn btn-primary">számít</button>
+
+            </div>
+        </div>
+        <div class="input">
+            <label for="b"> b oldal</label>
+            <input type="text" id="b" required class="form-control">
+        </div>
+        <div class="input">
+            <label for="c"> c oldal</label>
+            <input type="text" id="c" required class="form-control">
+        </div>
+    </div>
+    <div class="input">
+        <label for="d"> d oldal</label>
+        <input type="text" id="d" required class="form-control">
+    </div>
+    <div class="input">
+        <label for="result">eredmény</label>
+        <input type="text" id="result" class="form-control mb-5"
+        placeholder="eredmény itt látható" readonly>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
+
